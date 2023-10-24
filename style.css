@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("./pngtree-vector-business-mobile-payment-poster-image_261492.jpg");
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.payment-container {
+    background-color: transparent 40%;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 400px;
+    border: 3px solid black;
+}
+
+h1 {
+    text-decoration: underline black;
+    color: black;
+}
+
+.payment-details {
+    margin: 20px 0;
+}
+
+label {
+    display: block;
+    font-weight: 700;
+    text-decoration: underline black;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-left: -10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: rgb(52, 46, 46);
+}
+
+.payment-status {
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+.payment-status.success {
+    color: black;
+}
+
+.payment-status.failure {
+    color: #DB4437;
+}
